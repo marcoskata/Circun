@@ -9,7 +9,7 @@ class Circulo
   end
 end
 
-print "Inserte el perimetro de la circunferencia: "
+print "Inserte el perimetro de la circunferencia : "
 perimetro = gets
 Pi = 3.1416
 x = Circulo.new(perimetro.to_f, Pi.to_f )
